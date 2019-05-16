@@ -16,8 +16,6 @@
         </v-btn>
 
         <v-btn flat to="/">Home</v-btn>
-
-        <v-btn flat to="/about">About</v-btn>
         <v-btn flat to="/branch">Branch</v-btn>
       </v-toolbar-items>
     </v-toolbar>

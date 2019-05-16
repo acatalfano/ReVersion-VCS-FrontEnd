@@ -1,3 +1,4 @@
+<!--
 <template>
   <v-container grid-list-xs>
     <v-layout row wrap>
@@ -14,6 +15,13 @@
       </v-flex>
     </v-layout>
   </v-container>
+</template>
+-->
+<template>
+  <PageLayout>
+    <NestedFileExpansion :id="tree.root.id" :item="tree.root">
+    </NestedFileExpansion>
+  </PageLayout>
 </template>
 
 <script>
@@ -63,10 +71,12 @@ let tree = {
   }
 }
 
+import PageLayout from '../components/PageLayout'
 import NestedFileExpansion from '../components/NestedFileExpansion'
 export default {
   components: {
-    NestedFileExpansion
+    NestedFileExpansion,
+    PageLayout
   },
   data() {
     return {
