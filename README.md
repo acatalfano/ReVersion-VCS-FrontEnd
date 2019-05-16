@@ -1,4 +1,5 @@
 # reversion-frontend
+Work in Progress, the <a href="../../../ReVersion-VCS">backend</a> is mostly complete, but the frontend is still being developed.
 
 ## Project setup
 ```
